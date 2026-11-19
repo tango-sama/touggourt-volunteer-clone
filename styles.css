@@ -26,3 +26,6 @@
 .footer-logo-wrap{padding:18px 0 10px}
 .footer-association-logo{width:148px;height:148px;max-height:none;object-fit:contain;background:#fff;border-radius:50%;padding:18px;box-shadow:0 8px 24px #001b1638}
 @media(max-width:520px){.footer-association-logo{width:132px;height:132px;padding:16px}}
+
+.priorities{padding-bottom:90px}.priorities h2{font-family:"Readex Pro";font-size:32px;line-height:1.4;margin:4px 0 25px}.priority-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.priority{padding:24px;background:#fff;border:1px solid var(--line);border-radius:17px}.priority-head{display:flex;align-items:center;gap:12px}.priority-num{font-family:"Readex Pro";font-size:12px;color:#77a38a}.priority h3{font-size:19px;margin:0}.priority h4{font-size:15px;color:var(--green);margin:14px 0 6px}.priority ul{margin:0;padding-right:20px;color:var(--muted);font-size:13px}.priority li{margin:6px 0}
+@media(max-width:800px){.priority-grid{grid-template-columns:1fr}}
