@@ -26,3 +26,19 @@
 .footer-logo-wrap{padding:18px 0 10px}
 .footer-association-logo{width:148px;height:148px;max-height:none;object-fit:contain;background:#fff;border-radius:50%;padding:18px;box-shadow:0 8px 24px #001b1638}
 @media(max-width:520px){.footer-association-logo{width:132px;height:132px;padding:16px}}
+
+
+/* Priorities section */
+.priorities{padding-bottom:90px}
+.priorities h2{font-family:"Readex Pro";font-size:32px;line-height:1.4;margin:4px 0 25px}
+.priority-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.priority{padding:24px 24px 20px;background:#fff;border:1px solid var(--line);border-radius:17px;transition:transform .2s,box-shadow .2s}
+.priority:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.priority-axis{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;color:var(--green);background:#e7f2e9;padding:6px 14px 6px 12px;border-radius:99px}
+.priority-icon{font-size:15px}
+.priority h3{display:flex;align-items:flex-start;gap:10px;font-size:19px;line-height:1.6;margin:16px 0 10px}
+.priority-num{flex:0 0 28px;height:28px;display:grid;place-items:center;border-radius:9px;background:var(--green);color:#fff;font:700 13px "Readex Pro",sans-serif;margin-top:3px}
+.priority ul{margin:0;padding-right:20px;color:#536b63;font-size:14px}
+.priority li{margin:7px 0}
+@media(max-width:800px){.priority-grid{grid-template-columns:1fr}.priorities{padding-bottom:60px}}
+@media(max-width:520px){.priorities h2{font-size:28px}.priority{padding:18px 16px 14px}.priority h3{font-size:17px}.priority ul{font-size:13px}}
